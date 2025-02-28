@@ -12,15 +12,13 @@ body{
     background-color: #FFFFFF;
     color: #000000;
     font-family: "Brawler", serif;
-    font-weight: 100;
     font-style: normal;
 
 }
-
+/* 
 h1{
-   
-  font-weight: 700;
-  font-style: normal;
+  font-family: "Brawler", serif;
+  font-style: bold;
 }
 
 p{
@@ -30,10 +28,47 @@ p{
 
 p1{
     font-family: "DM Mono", serif;
+    color: #5F5F5F;
 }
 
 p4{
     font-family: "DM Sans", serif;
     font-weight: 600;
     font-style: bold;
+} */
+
+.container{
+    width: 60vw;
+    margin: 8vh auto;
+    border: 2px solid black;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.nameCard{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 0 0 auto;
+    border: 2px solid red;
+}
+.socials{
+    display: flex;
+
+}
+.sections{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+    flex: 1;
+    border: 2px solid green;
+}
+.sections *{
+    margin-left: 2vw;
+}
+a{
+    text-decoration: none;
 }
