@@ -5,7 +5,11 @@
     font-weight: 100;
     font-style: normal;
   } */
-
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 
 body{
@@ -71,4 +75,11 @@ p4{
 }
 a{
     text-decoration: none;
+}
+
+.socials{
+    border: 2px solid brown;
+}
+.box{
+
 }
