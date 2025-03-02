@@ -4,9 +4,11 @@ let darkMode = localStorage.getItem('darkmode') === 'active';
 // Get the theme button
 const themeBtn = document.getElementById('theme');
 
+
+
 // Apply dark mode if it was previously active
 if (darkMode) {
-  document.body.classList.add('darkmode');
+  document.body.classList.add('darkmode'); 
 }
 
 // Toggle dark mode on button click
@@ -23,4 +25,6 @@ themeBtn.addEventListener("click", () => {
     document.body.classList.remove('darkmode');
     localStorage.setItem('darkmode', null);
   }
+
 });
+

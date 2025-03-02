@@ -17,8 +17,13 @@
     --base-color: #1A1A1A; 
 --text-color: #FFFFFF;    
 --light-gray: #404040;    
---gray: #A6A6A6;         
+--gray: #A6A6A6;   
+      
 }
+
+.darkmode .socials img[src*=".svg"] {
+    filter: brightness(0) invert(1);
+  }
 
 #theme{
     height: 50px;
