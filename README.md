@@ -3,4 +3,4 @@ Personal portfolio page crafted with HTML, CSS, and JavaScript. My starting poin
 ## Features
 - Mobile-friendly design 📱
 - Basic navigation ↔️
-- GitHub-hosted with Pages 🗐 (coming soon)
+- GitHub-hosted with Pages 🗐
