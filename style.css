@@ -49,6 +49,7 @@ body{
     color: var(--text-color);
     font-family: "Brawler", serif;
     font-style: normal;
+    transition-duration: 0.4s;
 }
 
 
