@@ -1,0 +1,16 @@
+@keyframes pulseDot {
+  0%, 100% {
+   transform: scale(1);
+   box-shadow: 0 0 0 rgba(22, 181, 40, 0.0);
+  }
+  50% {
+    transform: scale(1.2);
+    box-shadow: 0 0 15px rgba(22, 181, 40, 0.8);
+  }
+}
+
+.pulse-dot {
+  background-color: #16B528;
+  border-radius: 9999px;
+  animation: pulseDot 1s infinite ease-in-out;
+}
