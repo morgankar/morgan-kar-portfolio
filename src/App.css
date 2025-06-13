@@ -12,5 +12,8 @@
 .pulse-dot {
   background-color: #16B528;
   border-radius: 9999px;
-  animation: pulseDot 1s infinite ease-in-out;
+  animation: pulseDot 900ms infinite ease-in-out;
+}
+body {
+  overflow-x: hidden;
 }
