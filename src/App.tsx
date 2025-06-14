@@ -7,7 +7,7 @@ function App() {
 
 
   return (
-    <div className="Container  border-black max-w-[1024px]  m-auto ">
+    <div className="Container  border-black max-w-[1024px] m-auto ">
       <Navbar/>
       <Hero/>
       <Projects/>

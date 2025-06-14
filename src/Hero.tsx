@@ -18,7 +18,9 @@ function Hero() {
 
   return (
     <div className='container mt-20 sm:ml-40 md:ml-60 ml-12 h-auto mb-40 blur up'> 
-        <div className='bg-amber-400 rounded-[50%] w-[148px] h-[148px]'></div>
+        <div className=' rounded-[50%] w-[148px] h-[148px] overflow-hidden relative'>
+          <img className="object-cover  absolute " src="morganSan.jpeg" alt="profile pic" />
+        </div>
         <h1 className='font-[700] text-4xl max-w-[400px] mt-20 '>Hey, I'm Arranyak Kar, Developer & Designer</h1>
         <h1 className=" font-[400] mt-2 text-gray-500">Guwahati City, IN</h1>
         <h1 className="font-[400] mt-3 max-w-[400px]  text-gray-500">I make your websites look awesome and functional. Developer by day, designer and thinker by night.</h1>
