@@ -15,8 +15,8 @@ function Projects() {
               <h1 className="text-gray-500">Landing page</h1>
             </div>
             <div className="iconsTwo flex gap-3 items-center">
-              <span><img src="icon_github.svg" alt="github"/></span>
-              <span><img src="link.jpg" alt="github"/></span>
+              <span className="hover:brightness-0 transition hover:cursor-pointer"><img src="icon_github.svg" alt="github"/></span>
+              <span className="hover:brightness-0 transition hover:cursor-pointer"><img src="link.svg" alt="github"/></span>
             </div>
           </div>
         </div>
