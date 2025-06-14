@@ -19,7 +19,7 @@ const Toggle = () => {
         Toggle Components
       </label>
 
-      <div style={{ marginTop: '20px' }}>
+      <div style={{ marginTop: '20px'}}>
         {isToggled ? <ComponentA /> : <ComponentB />}
       </div>
     </div>
