@@ -9,10 +9,15 @@ function Hero() {
     gsap.fromTo(".blur", 
       {filter:"blur(4px)", opacity:0},
       { filter: "blur(0px)", opacity: 1, duration: 1.2, ease: "power2.out"});
+    
+    gsap.fromTo(".up",
+      {y:40,duration:1.3},
+      {y:0}
+    )
   }, []);
 
   return (
-    <div className='container mt-20 sm:ml-40 md:ml-60 ml-12 h-auto mb-40 blur'> 
+    <div className='container mt-20 sm:ml-40 md:ml-60 ml-12 h-auto mb-40 blur up'> 
         <div className='bg-amber-400 rounded-[50%] w-[148px] h-[148px]'></div>
         <h1 className='font-[700] text-4xl max-w-[400px] mt-20 '>Hey, I'm Arranyak Kar, Developer & Designer</h1>
         <h1 className=" font-[400] mt-2 text-gray-500">Guwahati City, IN</h1>
