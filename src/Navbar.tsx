@@ -1,5 +1,20 @@
+import { gsap } from "gsap";
+import { useEffect } from "react";
+
+
+
+gsap.from(".card", {
+ 
+})
 
 function Navbar() {
+
+  useEffect(() => {
+    gsap.fromTo(".card", 
+      { opacity: 0, y: 20 }, 
+      { opacity: 1, y: 0, duration: 0.6, stagger: 0.1, ease: "power2.out" })
+  }, []);
+
   return (
     <div className='m-auto text-center  flex justify-center items-center mt-10 mb-30 gap-2'>
 

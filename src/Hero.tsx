@@ -10,9 +10,11 @@ function Hero() {
         
         <div className="btn max-w-[400px] flex gap-6 mt-5">
 
-          <Button size="lg" className=" w-[120px] rounded-bl-sm hover:w-[140px]">
-            <span className="block w-full text-left">Let's Chat</span>
-          </Button>
+          <a href="https://calendly.com/morgankar/30min" target="blank" rel="noopener noreferrer">
+            <Button size="lg" className=" w-[120px] rounded-bl-sm hover:w-[140px]">
+              <span className="block w-full text-left">Let's Chat</span>
+            </Button>
+          </a>
           <Button variant="green" size="lg" className="w-[230px]  rounded-full "> 
             <div className='w-[10px] h-[10px] rounded-full  bg-[#16B528] pulse-dot absolute mr-41'></div> Available for projects
             </Button>
