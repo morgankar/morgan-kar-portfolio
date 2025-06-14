@@ -12,7 +12,11 @@ function Navbar() {
   useEffect(() => {
     gsap.fromTo(".card", 
       { opacity: 0, y: 20 }, 
-      { opacity: 1, y: 0, duration: 0.6, stagger: 0.1, ease: "power2.out" })
+      { opacity: 1, y: 0, duration: 0.6, stagger: 0.1, ease: "power2.out" });
+
+    gsap.fromTo(".blur", 
+      {filter:"blur(4px)", opacity:0},
+      { filter: "blur(0px)", opacity: 1, duration: 1, ease: "power2.out"});
   }, []);
 
   return (
