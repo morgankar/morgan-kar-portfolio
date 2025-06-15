@@ -1,5 +1,7 @@
 import { gsap } from "gsap";
+import { motion } from "motion/react";
 import { useEffect } from "react";
+
 
 
 
@@ -24,30 +26,49 @@ function Navbar() {
 
       {/* Mini Cards  */}
       <a href="https://x.com/MorganKarX" target="blank" rel="noopener noreferrer">
-        <div className='card group w-[50px] h-[50px] border rounded-md'>
+        <motion.div 
+        whileHover={{
+        scale:1.3
+        }} className='card group w-[50px] h-[50px] border rounded-md'>
           <span><img className='m-auto mt-2 group-hover:brightness-0 transition hover:cursor-pointer' src="icon_x.svg" alt="x icon" /></span>
-        </div>
+        </motion.div>
       </a>
 
       <a href="https://github.com/morgankar" target="blank" rel="noopener noreferrer">
-      <div className='card group w-[50px] h-[50px] border rounded-md'>
+      <motion.div 
+       whileHover={{
+        scale:1.3
+        }}
+        className='card group w-[50px] h-[50px] border rounded-md'>
          <span><img className='m-auto mt-1.5 group-hover:brightness-0 transition hover:cursor-pointer' src="icon_github.svg" alt="x icon" /></span>
-      </div>
+      </motion.div>
       </a>
        <a href="https://x.com/MorganKarX" target="blank" rel="noopener noreferrer">
-      <div className='card group w-[50px] h-[50px] border rounded-md'>
+      <motion.div 
+       whileHover={{
+        scale:1.3
+        }}
+        className='card group w-[50px] h-[50px] border rounded-md'>
          <span><img className='m-auto mt-2 group-hover:brightness-0 transition hover:cursor-pointer' src="icon_mail.svg" alt="x icon" /></span>
-      </div>
+      </motion.div>
       </a>
        <a href="https://www.linkedin.com/in/morgankar" target="blank" rel="noopener noreferrer">
-      <div className='card group w-[50px] h-[50px] border rounded-md'>
+      <motion.div
+       whileHover={{
+        scale:1.3
+        }}
+        className='card group w-[50px] h-[50px] border rounded-md'>
          <span><img className='m-auto mt-2 group-hover:brightness-0 transition hover:cursor-pointer' src="icon_linkedin.svg" alt="x icon" /></span>
-      </div>
+      </motion.div>
       </a>
        <a href="https://x.com/MorganKarX" target="blank" rel="noopener noreferrer">
-       <div className='card group w-[50px] h-[50px] border rounded-md'>
+       <motion.div 
+        whileHover={{
+        scale:1.3
+        }}
+        className='card group w-[50px] h-[50px] border rounded-md'>
          <span><img className='m-auto mt-2 group-hover:brightness-0 transition hover:cursor-pointer' src="page.svg" alt="x icon" /></span>
-      </div>
+      </motion.div>
       </a>
 
       
