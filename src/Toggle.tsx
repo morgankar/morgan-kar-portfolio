@@ -2,7 +2,7 @@
 const ComponentA = () => <div>Component A is visible</div>;
 const ComponentB = () => <div>Component B is visible</div>;
 
-import React, { useState } from 'react'
+import  { useState } from 'react'
 
 const Toggle = () => {
 
