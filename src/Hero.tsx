@@ -19,7 +19,7 @@ function Hero() {
   return (
     <div className='container mt-20 m-auto h-auto mb-40 blur up  max-w-[510px] '> 
         <div className='  rounded-[50%] w-[100px] h-[100px] overflow-hidden relative'>
-          <img className="object-cover  absolute " src="morganSan.jpeg" alt="profile pic" />
+          <img className="object-cover  absolute " src="profilenewpic.jpg" alt="profile pic" />
         </div>
         <h1 className='font-[700] text-5xl max-w-[500px] mt-10 '>Hey, I'm Morgan. Developer & Designer</h1>
         <h1 className=" font-[400] mt-2 text-gray-500">Guwahati City, IN</h1>
