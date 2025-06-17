@@ -44,7 +44,7 @@ function Navbar() {
          <span><img className='m-auto mt-1.5 group-hover:brightness-0 transition hover:cursor-pointer' src="icon_github.svg" alt="x icon" /></span>
       </motion.div>
       </a>
-       <a href="https://x.com/MorganKarX" target="blank" rel="noopener noreferrer">
+       <a href="mailto:morgankar@protonmail.com" target="blank" rel="noopener noreferrer">
       <motion.div 
        whileHover={{
         scale:1.3
