@@ -68,7 +68,7 @@ function Navbar() {
         scale:1.3
         }}
         className='card group w-[50px] h-[50px] border rounded-md'>
-         <span><img className='m-auto mt-2 group-hover:brightness-0 transition hover:cursor-pointer' src="page.svg" alt="x icon" /></span>
+         <span><img className='m-auto mt-3 group-hover:brightness-0 transition hover:cursor-pointer' src="page.svg" alt="x icon" /></span>
       </motion.div>
       </a>
 
