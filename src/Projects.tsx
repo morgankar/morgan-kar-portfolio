@@ -2,10 +2,11 @@ type ProjectProps = {
   title:string;
   subtitle:string;
   img:string;
+  link:string;
 }
 ;
 
-function Projects({title, subtitle ,img} : ProjectProps) {
+function Projects({title, subtitle ,img, link} : ProjectProps) {
   return (
     <div className='m-auto mb-10  max-w-[510px]'>
      
@@ -14,13 +15,14 @@ function Projects({title, subtitle ,img} : ProjectProps) {
       <div className="flex justify-center items-center mt-10">
 
       {/* Project Card */}
-        <div className="projectCard w-[445px] h-[432px] rounded-md relative  
+        <a href={link} target="blank" rel="noopener noreferrer">
+        <div className=" projectCard w-[445px] h-[432px] rounded-md relative  
         border">
           
           <div className=" w-[380px] h-[316px] rounded-md ml-8 mt-8 hover:cursor-pointer overflow-hidden">
             <img src={img} alt="img" />
           </div>
-          <div className="text w-[380px] m-auto flex justify-between mt-5 items-center">
+          <div className="text w-[380px] m-auto flex justify-between mt-5 items-center ">
               <div className="project"> 
                 <h1 className="text-xl font-[600]">{title}</h1>
                 <h1 className="text-gray-500 text-xs">{subtitle}</h1>
@@ -31,6 +33,7 @@ function Projects({title, subtitle ,img} : ProjectProps) {
               </div>
           </div>
         </div>
+        </a>
       </div>
      
     </div>
