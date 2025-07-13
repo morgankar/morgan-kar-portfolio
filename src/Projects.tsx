@@ -19,8 +19,8 @@ function Projects({title, subtitle ,img, link} : ProjectProps) {
         <div className=" projectCard w-[445px] h-[432px] rounded-md relative  
         border">
           
-          <div className=" w-[380px] h-[316px] rounded-md ml-8 mt-8 hover:cursor-pointer overflow-hidden">
-            <img src={img} alt="img" />
+          <div className=" w-[380px] h-[316px] rounded-md ml-8 mt-8 hover:cursor-pointer overflow-hidden ">
+            <img src={img} className="w-full h-full object-cover object-left " alt="img" />
           </div>
           <div className="text w-[380px] m-auto flex justify-between mt-5 items-center ">
               <div className="project"> 
